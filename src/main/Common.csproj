@@ -1,9 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ei8.Cortex.Subscriptions.Common</AssemblyName>
+    <RootNamespace>ei8.Cortex.Subscriptions.Common</RootNamespace>
+    <Version>0.1.0</Version>
+    <Description>ei8 Cortex Subscriptions Common</Description>
+    <PackageProjectUrl>https://github.com/ei8/cortex-subscriptions-common</PackageProjectUrl>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
