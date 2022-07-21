@@ -7,7 +7,8 @@
     <Version>0.1.0</Version>
     <Description>ei8 Cortex Subscriptions Common</Description>
     <PackageProjectUrl>https://github.com/ei8/cortex-subscriptions-common</PackageProjectUrl>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/ei8/cortex-subscriptions-common</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
