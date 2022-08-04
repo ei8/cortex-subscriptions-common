@@ -1,14 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>ei8.Cortex.Subscriptions.Common</AssemblyName>
-    <RootNamespace>ei8.Cortex.Subscriptions.Common</RootNamespace>
-    <Version>0.1.0</Version>
-    <Description>ei8 Cortex Subscriptions Common</Description>
-    <PackageProjectUrl>https://github.com/ei8/cortex-subscriptions-common</PackageProjectUrl>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/ei8/cortex-subscriptions-common</RepositoryUrl>
+	  <TargetFramework>netstandard2.0</TargetFramework>
+	  <AssemblyName>ei8.Cortex.Subscriptions.Common</AssemblyName>
+	  <RootNamespace>ei8.Cortex.Subscriptions.Common</RootNamespace>
+	  <PackageId>ei8.Cortex.Subscriptions.Common</PackageId>
+	  <PackageVersion>0.1.1</PackageVersion>
+	  <Authors>Junvic Valdez</Authors>
+	  <Description>Cortex Subscriptions Common</Description>
+	  <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	  <PackageReleaseNotes>Initial commit.</PackageReleaseNotes>
+	  <PackageTags>cortex subscriptions common</PackageTags>
+	  <Version>0.1.1</Version>
+	  <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+	  <PackageProjectUrl>https://github.com/ei8/cortex-subscriptions-common</PackageProjectUrl>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <RepositoryUrl>https://github.com/ei8/cortex-subscriptions-common</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
