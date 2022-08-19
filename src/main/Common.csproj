@@ -16,6 +16,11 @@
 	  <PackageProjectUrl>https://github.com/ei8/cortex-subscriptions-common</PackageProjectUrl>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <RepositoryUrl>https://github.com/ei8/cortex-subscriptions-common</RepositoryUrl>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
 
 </Project>
