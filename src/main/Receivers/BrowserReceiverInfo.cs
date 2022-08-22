@@ -1,6 +1,6 @@
 ﻿using ei8.Cortex.Subscriptions.Common.Attributes;
 
-namespace ei8.Cortex.Subscriptions.Common
+namespace ei8.Cortex.Subscriptions.Common.Receivers
 {
     [SubscriptionPath("web")]
     public class BrowserReceiverInfo : IReceiverInfo

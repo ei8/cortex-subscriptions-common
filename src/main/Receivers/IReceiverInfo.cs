@@ -1,4 +1,4 @@
-﻿namespace ei8.Cortex.Subscriptions.Common
+﻿namespace ei8.Cortex.Subscriptions.Common.Receivers
 {
     /// <summary>
     /// Marker interface for classes that store receiver device data
