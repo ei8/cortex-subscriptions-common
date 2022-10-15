@@ -11,5 +11,6 @@ namespace ei8.Cortex.Subscriptions.Common
     public static class NotificationTemplateParameters
     {
         public const string AvatarUrl = "avatarUrl";
+        public const string ReceiverName = "receiverName";
     }
 }
