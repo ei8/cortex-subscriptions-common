@@ -1,8 +1,15 @@
-﻿namespace ei8.Cortex.Subscriptions.Common
+﻿using System.Collections.Generic;
+
+namespace ei8.Cortex.Subscriptions.Common
 {
     public class NotificationPayloadRequest
     {
-        public string Title { get; set; }
-        public string Body { get; set; }
+        public NotificationTemplate TemplateType { get; set; }
+        public Dictionary<string, object> TemplateValues { get; set; }
+    }
+
+    public static class NotificationTemplateParameters
+    {
+        public const string AvatarUrl = "avatarUrl";
     }
 }
